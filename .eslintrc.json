@@ -13,10 +13,9 @@
     },   
     "rules": {
         "no-console": "off",
-         "no-underscore-dangle": "off",
-         "object-curly-newline" :[ "error",{
-                    "ObjectExpression": "always"
-         }
-        ]
+         "no-underscore-dangle": ["error",{
+              "allowAfterThis": true 
+         }]
+
     }
 }
